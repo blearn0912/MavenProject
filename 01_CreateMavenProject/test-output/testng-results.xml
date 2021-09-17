@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-17T19:01:32 IST" name="Default suite" finished-at="2021-09-17T19:01:47 IST" duration-ms="15486">
+    <groups>
+    </groups>
+    <test started-at="2021-09-17T19:01:32 IST" name="Default test" finished-at="2021-09-17T19:01:47 IST" duration-ms="15486">
+      <class name="a.google.Test_HomePage">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:a.google.Test_HomePage@b62d79]" started-at="2021-09-17T19:01:32 IST" name="beforeClass" finished-at="2021-09-17T19:01:44 IST" duration-ms="12291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="homePageTest()[pri:0, instance:a.google.Test_HomePage@b62d79]" started-at="2021-09-17T19:01:44 IST" name="homePageTest" finished-at="2021-09-17T19:01:47 IST" duration-ms="3115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:a.google.Test_HomePage@b62d79]" started-at="2021-09-17T19:01:47 IST" name="afterClass" finished-at="2021-09-17T19:01:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- a.google.Test_HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
