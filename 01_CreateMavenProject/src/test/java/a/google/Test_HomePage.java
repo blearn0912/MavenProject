@@ -2,6 +2,9 @@ package a.google;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -17,6 +20,7 @@ public class Test_HomePage {
 	  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
+	  driver.manage().timeouts().pageLoadTimeout(2000, TimeUnit.MILLISECONDS);
 	  driver.get(baseurl);
   }
 
@@ -32,7 +36,7 @@ public class Test_HomePage {
    
   @AfterClass
   public void afterClass() {
-	  //driver.quit();
+	  driver.quit();
   }
 
 }
